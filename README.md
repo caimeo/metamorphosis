@@ -52,7 +52,7 @@ mutator.Create(&kiss)
 
 ````
 
-Note that you must create an instance of the function and pass it's pointer to the CreateMutator function.  After the mutator has been created, the functions are now usable.
+Note that you must create an instance of the function and pass it's pointer to the mutator.Create function.  After the mutator has been created, the functions are now usable.
 
 ````
 p := Prince{Name:"Harry", Title:"Prince Henry of Wales", Nationality:"English"}
