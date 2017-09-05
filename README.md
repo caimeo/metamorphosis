@@ -1,9 +1,7 @@
 # Metamorphosis
 
-###### ∆ (delta) Metamorphosis
-
-
-![gopher-fly](assets/gopher-fly-240.png)
+![gopher-fly](assets/gopher-fly-240.png)    
+###### gopherfly
 
 A data structure translation library for go that leverages annotations and reflection.
 
@@ -22,7 +20,7 @@ In the following example, Frog Species maps to Prince Nationality and the Prince
 ````
 package royal
 
-import "github.com/caimeo/metamorphosis/delta"
+import "github.com/caimeo/metamorphosis/mutator"
 
 type Frog struct {
 	Name        string `∆.royal.Prince:"Name"`
